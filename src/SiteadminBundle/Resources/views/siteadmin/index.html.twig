@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Siteadmin list</h1>
+
+
+        <tbody>
+        {% for siteadmin in siteadmins %}
+
+            <div>
+                <h1>Siteadmin</h1>
+                <p> {{ siteadmin.ID }} </p>
+                <h2> {{ siteadmin.nom }}</h2>
+                <!--<img src="{{asset('bundles/siteadmin/img/QUOUILLAULT_Ludovic.JPG')}}">-->
+                <p> {{ siteadmin.age }} </p>
+
+                <p> {{ siteadmin.image }} </p>
+                <img src="{{ app.request.basepath }}/uploads/{{ siteadmin.image }}">
+
+            </div>
+
+        {% endfor %}
+        </tbody>
+
+
+    <ul>
+        <li>
+            <a href="{{ path('siteadmin_new') }}">Create a new entry</a>
+
+
+        </li>
+
+
+    </ul>
+
+{% endblock %}

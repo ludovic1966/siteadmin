@@ -1,0 +1,7 @@
+siteadmin_siteadmin:
+    resource: "@SiteadminBundle/Resources/config/routing/siteadmin.yml"
+    prefix:   /siteadmin
+
+siteadmin_homepage:
+    path:     /
+    defaults: { _controller: SiteadminBundle:Default:index }

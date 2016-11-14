@@ -1,0 +1,1000 @@
+  208  git status
+  209  git push origin
+  210  git clone "git@github.com:ludovic1966/git_workflow.git"
+  211  git init
+  212  git add --all
+  213  git status
+  214  git commit -m "first commit"
+  215  git remote add origingit@github.com:ludovic1966/git_workflow.git
+  216  git push -u origin master
+  217  git branch test1
+  218  git checkout -b test1
+  219  git checkout test1
+  220  git add --all
+  221  git status
+  222  git commit -m "my changes"
+  223  git push test1
+  224  git push origin test1
+  225  git status
+  226  git add --all
+  227  git status
+  228  git commit -m "my changes2"
+  229  git push origin test1
+  230  git status
+  231  git add --all
+  232  git commit -m "my changes3"
+  233  git push origin test1
+  234  git pull
+  235  sudo apt-get update
+  236  sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev
+  237  cd
+  238  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+  239  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+  240  echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+  241  exec $SHELL
+  242  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+  243  echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+  244  exec $SHELL
+  245  git init
+  246  git add --all
+  247  git status
+  248  git init
+  249  git status
+  250  git reset HEAD echo "# quete_js" >> README.md
+  251  git init
+  252  git add README.md
+  253  git commit -m "first commit"
+  254  git remote add origin git@github.com:ludovic1966/quete_js.git
+  255  git push -u origin master
+  256  rbenv install 2.3.1
+  257  rbenv global 2.3.1
+  258  ruby -v
+  259  gem install bundler
+  260  curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+  261  sudo apt-get install -y nodejs
+  262  gem install rails -v 4.2.6
+  263  rbenv rehash
+  264  rails -v
+  265  # Rails 4.2.6
+  266  git clone "https://github.com/Karb0/bugproject.git"
+  267  ls
+  268  cd bugproject/
+  269  ls
+  270  rais s
+  271  raise s
+  272  rails s
+  273  bundle install
+  274  rails s
+  275  bundle exec rake db:migrate
+  276  rails s
+  277  git status
+  278  git reset HEAD carousel-fleche-gauche.png
+  279  status
+  280  git init
+  281  git add --all
+  282  git status
+  283  git commit -m "first commit"
+  284  git status
+  285  git add --all
+  286  git status
+  287  git remote add origin git@github.com:ludovic1966/quete_js.git
+  288  git push -u origin master
+  289  git pull VERO56
+  290  git init
+  291  git add --all
+  292  git status
+  293  git commit -m "first commit"
+  294  git remote add origin git@github.com:ludovic1966/Mon_CV_Wild.git
+  295  git push -u origin master
+  296  gist bootstrap.html
+  297  git init
+  298  git add --all
+  299  git status
+  300  git commit -m "first commit"
+  301  git remote add origin git@github.com:ludovic1966/la_ferme_de_perrette.git
+  302  git push -u origin master
+  303  git remote add origin git@github.com:ludovic1966/la_ferme_de_perrette.git
+  304  git status
+  305  sudo apt-get install apache2
+  306  sudo apt-get install php
+  307  sudo chown -R apprenti /var/www/html
+  308  sudo /etc/init.d/apache2 start
+  309  cd /var/www/html/
+  310  git clone https://github.com/WildCodeSchool/Atelier-vues-modulaires.git
+  311  sudo /etc/init.d/apache2 start
+  312  git init
+  313  git clone https://github.com/WildCodeSchool/clmystery.git
+  314  ls
+  315  cd clmystery
+  316  ls
+  317  cd mystery
+  318  ls
+  319  cat hint1
+  320  type 'cat hint1'
+  321  ls
+  322  cd/
+  323  cd ..
+  324  cat hint1
+  325  cat hint
+  326  ls
+  327  cdmystery
+  328  ls
+  329  cd mystery
+  330  ls
+  331  cat 'crimescene'
+  332  cd ..
+  333  cat hint3
+  334  top
+  335  cat mon_historique.log
+  336  ls
+  337  cd history
+  338  history > mon_historique.log
+  339  cat instruction
+  340  cat instructions
+  341  ls
+  342  cd mystery
+  343  ls
+  344  cat crimescene
+  345  ls
+  346  grep -E "INDICE" crimescene
+  347  grep -E "CLUE" crimescene
+  348  cat people | grep Annabel 
+  349  grep -E "Anabel" people
+  350  grep -E "CLUE*" crimescene
+  351  grep -E "*Anabel*" people
+  352  grep -E "CLUE" crimescene
+  353  grep -E "Anabel" people
+  354  cat people | grep Annabel 
+  355  ls
+  356  cd //
+  357  cd ..
+  358  ls
+  359  cd /
+  360  ls
+  361  cat hint1
+  362  grep -E "Anabel" people
+  363  head -n 20 people
+  364  cat streets/Hart_Place | head -n 40 | tail -n 1 
+  365  cat people | grep Annabel 
+  366  grep -E "Anabel" people
+  367  grep "CLUE" crimescene
+  368  ls
+  369  cat vehicules
+  370  cat vehicles
+  371  grep "CLUE" crimescene
+  372  head -n 20 people
+  373  head -n 20 vehicles
+  374  head -n 80 vehicles
+  375  grep -E "Anabel" vehicles
+  376  grep -E "Anabel" people
+  377  cat hint2
+  378  grep -E "Anabel" people
+  379  cat hint3
+  380  ls
+  381  cat hint3
+  382  cat hint2
+  383  ls
+  384  cat hint1
+  385  head -n 20 people
+  386  cat hint2
+  387  cat hint3
+  388  ls
+  389  cat hint1
+  390  cat hint2
+  391  ls
+  392  cat hint3
+  393  cat hint4
+  394  cat hint5
+  395  cat hint56
+  396  cat hint6
+  397  cat hint7
+  398  cat hint8
+  399  ls
+  400  cat hint1
+  401  cat hint2
+  402  ls
+  403  cat instruction
+  404  cat instructions
+  405  nano cheatsheet.md
+  406  ls
+  407  cat instruction
+  408  cat instructions
+  409  cat hint1
+  410  cat hint2
+  411  cat hint3
+  412  cat hint4
+  413  cat hint5
+  414  cat hintt6
+  415  cat hint6
+  416  cat hint7
+  417  cat hint8
+  418  cat hint9
+  419  lsLicense Plate L337ZR9
+  420  Make: Honda
+  421  Color: Red
+  422  Owner: Katie Park
+  423  Height: 6'2"
+  424  Weight: 189 lbs
+  425  --
+  426  License Plate L337P89
+  427  Make: Honda
+  428  Color: Teal
+  429  Owner: Mike Bostock
+  430  Height: 6'4"
+  431  Weight: 173 lbs
+  432  --
+  433  License Plate L337GX9
+  434  Make: Mazda
+  435  Color: Orange
+  436  Owner: John Keefe
+  437  Height: 6'4"
+  438  Weight: 185 lbs
+  439  --
+  440  License Plate L337QE9
+  441  Make: Honda
+  442  Color: Blue
+  443  Owner: Erika Owens
+  444  Height: 6'5"
+  445  Weight: 220 lbs
+  446  --
+  447  License Plate L337GB9
+  448  Make: Toyota
+  449  Color: Blue
+  450  Owner: Matt Waite
+  451  Height: 6'1"
+  452  Weight: 190 lbs
+  453  --
+  454  License Plate L337OI9
+  455  Make: Jaguar
+  456  Color: Blue
+  457  Owner: Brian Boyer
+  458  Height: 6'6"
+  459  Weight: 201 lbs
+  460  --
+  461  License Plate L337X19
+  462  Make: Fiat
+  463  Color: Blue
+  464  Owner: Al Shaw
+  465  Height: 6'5"
+  466  Weight: 240 lbs
+  467  --
+  468  License Plate L337539
+  469  Make: Honda
+  470  Color: Blue
+  471  Owner: Aron Pilhofer
+  472  Height: 5'3"
+  473  Weight: 198 lbs
+  474  --
+  475  License Plate L3373U9
+  476  Make: Ford
+  477  Color: Blue
+  478  Owner: Miranda Mulligan
+  479  Height: 6'6"
+  480  Weight: 156 lbs
+  481  --
+  482  License Plate L337369
+  483  Make: Honda
+  484  Color: Blue
+  485  Owner: Heather Billings
+  486  Height: 5'2"
+  487  Weight: 244 lbs
+  488  --
+  489  License Plate L337DV9
+  490  Make: Honda
+  491  Color: Blue
+  492  Owner: Joe Germuska
+  493  Height: 6'2"
+  494  Weight: 164 lbs
+  495  --
+  496  License Plate L3375A9
+  497  Make: Honda
+  498  Color: Blue
+  499  Owner: Jeremy Bowers
+  500  Height: 6'1"
+  501  Weight: 204 lbs
+  502  --
+  503  License Plate L337WR9
+  504  Make: Honda
+  505  Color: Blue
+  506  Owner: Jacqui Maher
+  507  Height: 6'2"
+  508  Weight: 130 lbs
+  509  ls
+  510  cat hint8
+  511  ls
+  512  cd mystery
+  513  ls
+  514  cat people "Jeremy Bowers"
+  515  cat "Jeremy Bowers" people
+  516  gep "Jeremy Bowers" people
+  517  grep "Jeremy Bowers" people
+  518  grep "Jacqui Maher" people
+  519  echo Jeremy Bowers
+  520  history > mon_historique.log
+  521  gist mon_historique.log
+  522  cat hint2
+  523  cat hint3
+  524  cat hint4
+  525  cat hint5
+  526  cat hint56
+  527  cat hint6
+  528  cat hint7
+  529  cat hint8
+  530  ls
+  531  cd mystery
+  532  ls
+  533  cd memberships/
+  534  ls
+  535  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  | grep "Joe Germuska"
+  536  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  | grep "Jeremy Bowers"
+  537  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  | grep "Jacqui Maher"
+  538  head -n 20 people
+  539  ls
+  540  grep "CLUE" crimescene
+  541  grep "Annabel" people
+  542  grep "Annabel" vehicles
+  543  head -n 173 Hart Place_Street | tail -n 40
+  544  head -n 40 streets/Hart Place | tail -n 1
+  545  head -n 40 streets/Hart_Place | tail -n 1
+  546  head -n 179 streets/Buckingham_Place | tail -n 1
+  547  ls
+  548  cd interviews
+  549  ls
+  550  cat interview-'4726024
+  551  cat interview-47246024
+  552  cat interview-4699607
+  553  cat interview-699607
+  554  ls
+  555  cd ..
+  556  ls
+  557  grep "Honda" vehicles
+  558  grep "Blue" vehicles
+  559  grep "L337" vehicles
+  560  grep -A 5 "L337" mystery/vehicles
+  561  ls
+  562  grep -A 5 "L337" vehicles
+  563  cat AAA Delta_SkyMiles library Museum | grep "Joe Germuska"
+  564  cat AAA Delta_SkyMiles library Museum | grep "Jeremy Bowers"
+  565  cat AAA Delta_SkyMiles library Museum | grep "Jacqui Maher"
+  566  sudo apt-get remove openjdk*
+  567  sudo add-apt-repository ppa:webupd8team/java
+  568  sudo apt-get update
+  569  sudo apt-get install java-common oracle-java8-installer
+  570  wget https://download-cf.jetbrains.com/webide/PhpStorm-2016.1.2.tar.gz
+  571  tar xvf PhpStorm-2016.1.2.tar.gz
+  572  sudo mv PhpStorm-145.1616.3/ /opt/phpstorm/
+  573  sudo ln -s /opt/phpstorm/bin/phpstorm.sh /usr/local/bin/phpstorm
+  574  phpstorm
+  575  ls
+  576  git init
+  577  git add --all
+  578  git status
+  579  git commit -m "first commit"
+  580  git remote add git@github.com:ludovic1966/quete_maquette_htmlcss.git
+  581  git push -u origin master
+  582  git status
+  583  git add --all
+  584  git status
+  585  git init
+  586  ls
+  587  git add --all
+  588  ls
+  589  git add --all
+  590  git commit -m "first commit"
+  591  git remote add origin git@github.com:ludovic1966/quete_maquette_htmlcss.git
+  592  git push -u origin master
+  593  git add --all
+  594  git status
+  595  git push -u origin master
+  596  git status
+  597  git push -u origin master
+  598  git push origin master
+  599  git status
+  600  git commit -m "second commit"
+  601  git push -u origin master
+  602  ls
+  603  gist algo_speudocode.odt
+  604  ls
+  605  gist Algo_annee
+  606  git clone https://github.com/WildCodeSchool/markdown-fr.git
+  607  ls
+  608  git branch work1
+  609  git init
+  610  git branch work1
+  611  git checkout work1
+  612  git clone git@github.com:ludovic1966/markdown-fr.git
+  613  cd mardown-fr
+  614  ls
+  615  cd markdown-fr
+  616  ls
+  617  git branch work1
+  618  git checkout work1
+  619  ls
+  620  git status
+  621  git add --all
+  622  git status
+  623  git branch
+  624  git clone git@github.com:ludovic1966/markdown-fr.git
+  625  git branch work1
+  626  ls
+  627  git clone git@github.com:ludovic1966/markdown-fr.git
+  628  git branch work1
+  629  ls
+  630  cd markdown-fr
+  631  ls
+  632  git branch work1
+  633  git branch
+  634  git checkout work1
+  635  git branch
+  636  git add -all
+  637  ls
+  638  git -am "traduction"
+  639  cd syntax/
+  640  git status
+  641  git -am "traduction"
+  642  git commit -am "traduction"
+  643  git status
+  644  git push origine work1
+  645  git push origin work1
+  646  git clone https://github.com/romaincoeur/installation-des-outils-php.git
+  647  $ sudo apt update
+  648  sudo apt update
+  649  sudo apt install -y php
+  650  rahul@tecadmin:~$ php -v
+  651  php -v
+  652  sudo apt install apache2 libapache2-mod-php
+  653  sudo apt install mysql-server php-mysql
+  654  sudo mysql_secure_installation
+  655  sudo systemctl restart apache2.service
+  656  sudo systemctl restart mysql.service
+  657  sudo iptables -A INPUT -m state --state NEW -p tcp --dport 80 -j ACCEPT
+  658  sudo ufw allow 80/tcp
+  659  ifconfig
+  660  git clone git@github.com:WildCodeSchool/laloupe-0916-psychomot.git
+  661  git init
+  662  git add -all
+  663  ls
+  664  git add --all
+  665  ls
+  666  git commit -m "first commit"
+  667  git remoet add origin git@github.com:ludovic1966/quete_phpstorm.git
+  668  git remote add origin git@github.com:ludovic1966/quete_phpstorm.git
+  669  git push -u origine master
+  670  git push origin master
+  671  git push -u origin master
+  672  ls
+  673  gist quete_phpstorm_gist
+  674  git init
+  675  git add --all
+  676  git commit -m "first commit"
+  677  git add --all
+  678  git status
+  679  git commit -m "ajout du fichier idea"
+  680  git push -u origin master
+  681  git push origin master
+  682  git status
+  683  ls
+  684  git add --all
+  685  git status
+  686  git push
+  687  git remote add origin git@github.com:ludovic1966/quete_phpstorm.git
+  688  git status
+  689  git add --all
+  690  git status
+  691  cd ~
+  692  cat >> .gitignore
+  693  git status
+  694  git add --all
+  695  git status
+  696  git push
+  697  git status
+  698  git push origin
+  699  git status
+  700  git remote add origin git@github.com:ludovic1966/quete_phpstorm.git
+  701  git push -u origin master
+  702  git status
+  703  git push origin
+  704  git status
+  705  git push -u origin
+  706  git status
+  707  git push origin master
+  708  git status
+  709  git branch
+  710  git push origin
+  711  git status
+  712  git reset HEAD quete_phpstorm_gist
+  713  git status
+  714  git add --all
+  715  git status
+  716  git push origin master
+  717  git branch
+  718  git status
+  719  git commit -m "ajout fichier idea"
+  720  git push origin master
+  721  git status
+  722  git clone git@github.com:WildCodeSchool/laloupe-0916-psychomot.git
+  723  cd laloupe-0916-psychomot
+  724  git branch
+  725  git pull origin dev
+  726  git branch
+  727  git checkout dev
+  728  git branch
+  729  git branch lq/definition
+  730  checkout lq:definition
+  731  checkout lq/definition
+  732  git checkout lq/definition
+  733  git branch
+  734  nano .gitignore 
+  735  git status
+  736  git lo
+  737  git log
+  738  git rm .idea
+  739  git rm .idea -r
+  740  git rm .idea -r -f
+  741  git status
+  742  git add --all
+  743  git status
+  744  git commit -m "suppresion du fichier idea"
+  745  git push origin master
+  746  git branch
+  747  git status
+  748  git commit -am "create acordion for definition page"
+  749  git push origin lq/definition
+  750  git status
+  751  git branch
+  752  checkout dev
+  753  git branch
+  754  git checkout
+  755  git branch
+  756  git checkout dev
+  757  git branch
+  758  git pull origin dev
+  759  git merge lq/definition 
+  760  git status
+  761  git add .
+  762  git commit -m "solved conflicts"
+  763  git push origin dev
+  764  git branch
+  765  git pull origin dev
+  766  git branch
+  767  git chekout master
+  768  git checkout master
+  769  git clone git@github.com:WildCodeSchool/laloupe-0916-psychomot.git
+  770  ls
+  771  cd laloupe-0916-psychomot
+  772  git pull dev
+  773  git pull origin dev
+  774  git branch lq:definition1
+  775  git branch lq/definition1
+  776  git branch
+  777  checkout lq/definition
+  778  git branch
+  779  checkout lq/definition1
+  780  git branch
+  781  git checkout lq/definition1
+  782  git branch
+  783  git checkout dev
+  784  git branch lq/definition2
+  785  git branch
+  786  git clone git@github.com:WildCodeSchool/laloupe-0916-psychomot.git
+  787  ls
+  788  cd laloupe-0916-psychomot
+  789  git branch
+  790  git pull origin dev
+  791  git branch
+  792  git checkout dev
+  793  git branch
+  794  git branch lq/definition1
+  795  git branch
+  796  git checkout lq/definition1
+  797  git branch
+  798  git status
+  799  git add --all
+  800  git commit -m "update accordion"
+  801  git push origin lq/definition1
+  802  git clone git@github.com:WildCodeSchool/laloupe-0916-psychomot.git
+  803  ls
+  804  cd laloupe-0916-psychomot
+  805  ls
+  806  git branch
+  807  sudo pear channel-discover pear.symfony-project.com
+  808  symfony new projet1 2.8
+  809  composer -v
+  810  sudo apt install composer
+  811  Phpadmind -v
+  812  Phpmyadmin -v
+  813  sudo apt-get install phpmyadmin
+  814  ls
+  815  sudo apt-get install phpmyadmin
+  816  my sql
+  817  mysql -v
+  818  sudo mysql
+  819  sudo apt-get install phpmyadmin
+  820  ps aux | grep apt
+  821  kill -9 7656 7655
+  822  sudo kill -9 7656 7655
+  823  ps aux | grep apt
+  824  sudo apt-get install phpmyadmin
+  825  sudo dpkg --configure -a
+  826  ps aux | grep aptsudo htpasswd /etc/phpmyadmin/htpasswd.setup admin
+  827  sudo apt-get install phpmyadmin
+  828  sudo gedit /etc/apache2/apache2.conf
+  829  sudo /etc/init.d/apache2 restart
+  830  sudo pear channel-discover pear.symfony-project.com
+  831  cd /var/www/html/
+  832  symfony new test 2.8
+  833  cd
+  834  sudo mkdir -p /usr/local/bin
+  835  some
+  836  sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+  837  sudo chmod a+x /usr/local/bin/symfony
+  838  cd /var/www/html/
+  839  symfony new test 2.8
+  840  rm -rf test/
+  841  ls
+  842  symfony new test1 2.8
+  843  sudo chmod –R 777 test1
+  844  chmod --help
+  845  chmod –R 777 test1
+  846  sudo chmod -R 777 test1
+  847  cd
+  848  ls
+  849  cd /var/www/html/
+  850  ls
+  851  chmod +x chmod.sh
+  852  ./chmod.sh
+  853  cd
+  854  ls
+  855  cd Téléchargements
+  856  cp chmod.sh /var/www/htlm/test1
+  857  cp chmod.sh /var/www/htlm/test1/
+  858  ls
+  859  cp chmod.sh /var/www/html/test1/
+  860  cd
+  861  ls
+  862  cd /var/www/html/test1/
+  863  chmod +x chmod.sh
+  864  ./chmod.sh
+  865  composer install
+  866  php app/console doctrine:database:create
+  867  mysql -u root -p
+  868  php app/console doctrine:database:create
+  869  php app/console generate:bundle
+  870  php app/console doctrine:generate:entity
+  871  php app/console doctrine:update --force
+  872  php app/console doctrine:generate:crud
+  873  git branch
+  874  git add --all
+  875  git status
+  876  git reset HEAD img/1_questcequecest_500-575.jpg
+  877  git status
+  878  git commit -m "update acordion"
+  879  git push origin lq/definition1 
+  880  history > mon_historique1.log
+  881  git clone https://github.com/romaincoeur/test4.git
+  882  history > mon_historique.log
+  883  ls
+  884  cd /var/www/html/
+  885  ls
+  886  cd quete_php_cornac/
+  887  git remote add origin git@github.com:ludovic1966/quete_php_cornac.git
+  888  ls
+  889  git i
+  890  git init
+  891  git remote add origin git@github.com:ludovic1966/quete_php_cornac.git
+  892  git status
+  893  help
+  894  help head
+  895  help HEAD
+  896  info head
+  897  git status
+  898  git reset HEAD --test.php
+  899  git reset HEAD test.php
+  900  ls
+  901  git status
+  902  git push -u origin master
+  903  git remote add origin git@github.com:ludovic1966/quete_php_cornac.git
+  904  git init
+  905  git remote add origin git@github.com:ludovic1966/quete_php_cornac.git
+  906  git push origin master
+  907  git status
+  908  git add --all
+  909  git commit -m "first commit"
+  910  ls
+  911  cd
+  912  cd /var/www/html/
+  913  ls
+  914  cd quete_phpcornac
+  915  ls
+  916  git init
+  917  git remote add origin git@github.com:ludovic1966/quete_phpcornac.git
+  918  git status
+  919  git push origin master
+  920  git commit -m "first commit"
+  921  git remote add origin git@github.com:ludovic1966/quete_phpcornac.git
+  922  git push origin master
+  923  git status
+  924  git add --all
+  925  git status
+  926  git commit -m "first commit"
+  927  git push origin master
+  928  cd
+  929  cd /var/www/html/hakaton1/
+  930  php app/console server:run
+  931  cd.
+  932  cd ..
+  933  git clone git@github.com:FGalerne/Biagri.git
+  934  cd Biagri/
+  935  git branch
+  936  git checkout dev
+  937  git pb/vendeur
+  938  git checkout pb/vendeur
+  939  git branch
+  940  composer install
+  941  chmod +x chmod.sh
+  942  ./chmod.sh
+  943  sudo mysql -u root -p
+  944  ls -a
+  945  cd /home/apprenti/
+  946  ls -a
+  947  cp .mysql_history .mysql_history1
+  948  help
+  949  ls -a
+  950  cp .mysql_history /home/apprenti/hystory.txt
+  951  gist .mysql_history
+  952  cat ~/.mysql_history).
+  953  cat ~/.mysql_history
+  954  sudo cat ~/.mysql_history
+  955  locate .mysql_history
+  956  nano .mysql_history
+  957  gist .mysql_history
+  958  sudo gist .mysql_history
+  959  ruby -v
+  960  rvm -
+  961  rvm -v
+  962  rvm list
+  963  gist -v
+  964  bundler
+  965  bundler --help
+  966  gem install gist
+  967  gem pristine debug_inspector --version 0.0.2
+  968  gem pristine binding_of_caller --version 0.7.2
+  969  gist .mysql_history
+  970  sudo gist .mysql_history
+  971  sudo -H gist .mysql_history
+  972  gem pristine byebug --version 5.0.0
+  973  gem pristine nokogiri --version 1.6.8
+  974  gem pristine nokogiri --version 1.6.6.2
+  975  gist .mysql_history
+  976  sudo chmod -R 1777 /tmp
+  977  gist .mysql_history
+  978  ll .mysql
+  979  ll .mysql_history 
+  980  sudo chmod 777 .mysql_history 
+  981  gist .mysql_history
+  982  git branch
+  983  git status
+  984  git add --all
+  985  git status
+  986  git commit -m "update accordeon"
+  987  git branch
+  988  git push origin lq/definition1
+  989  git checkout dev
+  990  git branch
+  991  git merge lq/definition1 
+  992  git pull origin dev
+  993  git push origin dev
+  994  git checkout lq/definition
+  995  git branch
+  996  git pull dev
+  997  git pull origin dev
+  998  git branch
+  999  git push origin lq/definition
+ 1000  git chekout dev
+ 1001  git branch
+ 1002  git checkout dev
+ 1003  git branch
+ 1004  git pull origin dev
+ 1005  git checkout lq/definition1
+ 1006  git branch
+ 1007  git pull origin dev
+ 1008  git push origin lq/definition1
+ 1009  ls
+ 1010  sudo chmod -R 777 psychomot/
+ 1011  cd psychomot/
+ 1012  ls
+ 1013  chmod +x chmod.sh
+ 1014  ./chmod.sh 
+ 1015  composer install
+ 1016  php app/console doctrine:schema:update --force
+ 1017  php app/console doctrine:database:create
+ 1018  php app/console doctrine:schema:update --force
+ 1019  php app/console assets:install --symlink
+ 1020  cp .mysql_history /home/apprenti/hystory.txt
+ 1021  ls
+ 1022  cd /home/apprenti/
+ 1023  ls
+ 1024  gist hystory.txt
+ 1025  cd /var/www/html/ls
+ 1026  cd /var/www/html/
+ 1027  ls
+ 1028  cd /laloupe-0916-psychomot/
+ 1029  ls
+ 1030  cd laloupe-0916-psychomot
+ 1031  ls
+ 1032  git branch
+ 1033  git add --all
+ 1034  git commit -m "update accordeon phpstorm"
+ 1035  git push origine lq/definition1
+ 1036  git push origin lq/definition1
+ 1037  ls
+ 1038  cd psychomot
+ 1039  ls
+ 1040  php app/console doctrine:shema:update
+ 1041  php app/console doctrine:shema:update --dump-sql
+ 1042  php app/console doctrine:shema:update --force
+ 1043  php app/console doctrine:shema:update --dump-sql
+ 1044  php app/console assets:install --symlink
+ 1045  php app/console doctrine:schema:update --dump-sql
+ 1046  php app/console doctrine:schema:update --force
+ 1047  php app/console assets:install --symlink
+ 1048  php app/console doctrine:schema:update --dump-sql
+ 1049  php app/console doctrine:schema:update --force
+ 1050  php app/console assets:install --symlink
+ 1051  php app/console doctrine:schema:update --dump-sql
+ 1052  php app/console doctrine:schema:update --force
+ 1053  php app/console assets:install --symlink
+ 1054  php app/console doctrine:schema:update --dump-sql
+ 1055  php app/console doctrine:schema:update --force
+ 1056  php app/console assets:install --symlink
+ 1057  php app/console doctrine:schema:update --dump-sql
+ 1058  php app/console doctrine:schema:update --force
+ 1059  php app/console assets:install --symlink
+ 1060  php app/console doctrine:schema:update --force
+ 1061  php app/console assets:install --symlink
+ 1062  php app/console doctrine:schema:update --force
+ 1063  php app/console assets:install --symlink
+ 1064  php app/console doctrine:schema:update --dump-sql
+ 1065  php app/console assets:install --symlink
+ 1066  php app/console doctrine:schema:update --force
+ 1067  php app/console assets:install --symlink
+ 1068  php app/console doctrine:schema:update --dump-sql
+ 1069  php app/console doctrine:schema:update --force
+ 1070  php app/console assets:install --symlink
+ 1071  php app/console doctrine:schema:update --dump-sql
+ 1072  php app/console doctrine:schema:update --force
+ 1073  php app/console assets:install --symlink
+ 1074  php app/console doctrine:schema:update --dump-sql
+ 1075  php app/console doctrine:schema:update --force
+ 1076  php app/console assets:install --symlink
+ 1077  git add --all
+ 1078  git commit -m "update accordeon phpstorm"
+ 1079  git push origin lq/definition1
+ 1080  git status
+ 1081  cd /var/www/html/
+ 1082  ls
+ 1083  cd laloupe-0916-psychomot
+ 1084  ls
+ 1085  cd psychomot
+ 1086  ls
+ 1087  git status
+ 1088  git add --all
+ 1089  git status
+ 1090  git commit -m "update phpstorm edit.php"
+ 1091  git branch
+ 1092  git push origin lq/definition1
+ 1093  git add --all
+ 1094  git commit -m "update phpstorm edit.php"
+ 1095  git push origin lq/definition1
+ 1096  git checkout dev
+ 1097  git branch
+ 1098  git status
+ 1099  git add --all
+ 1100  git status
+ 1101  git commit -m "update workspace"
+ 1102  git push origin lq/definition1
+ 1103  git checkout dev
+ 1104  git branch
+ 1105  git merge lq/definition1
+ 1106  git pull origin dev
+ 1107  git status
+ 1108  git branch
+ 1109  git add --all
+ 1110  git commit -m "conflic"
+ 1111  git push origin dev
+ 1112  php app/console cache:clear
+ 1113  php app/console doctrine:schema:update --force
+ 1114  php app/console assets:install --symlink
+ 1115  git status
+ 1116  git add --all
+ 1117  git status
+ 1118  git commit -m "update conflics"
+ 1119  git push origin dev
+ 1120  git status
+ 1121  git add --all
+ 1122  git status
+ 1123  git commit -m "update conflics"
+ 1124  git push origin dev
+ 1125  php app/console cache:clear
+ 1126  php app/console doctrine:schema:update --force
+ 1127  php app/console assets:install --symlink
+ 1128  php app/console cache:clear
+ 1129  php app/console doctrine:schema:update --force
+ 1130  php app/console assets:install --symlink
+ 1131  git status
+ 1132  git add --all
+ 1133  git commit -m "update conflics"
+ 1134  git push origin dev
+ 1135  git branch
+ 1136  git pull origin dev
+ 1137  git checkout lq/definition1
+ 1138  git status
+ 1139  git add .
+ 1140  git status
+ 1141  git add --all
+ 1142  git status
+ 1143  git commit -m "update idea"
+ 1144  git push origin dev
+ 1145  git pull origin dev
+ 1146  git branch lq/definition1
+ 1147  git branch
+ 1148  git checkout lq/definition1
+ 1149  git branch
+ 1150  php app/console cache:clear
+ 1151  php app/console doctrine:schema:update --force
+ 1152  php app/console assets:install --symlink
+ 1153  git branch
+ 1154  git checkout dev
+ 1155  git branch
+ 1156  git checkout lq/definition1 
+ 1157  git branch
+ 1158  git pull origin dev
+ 1159  git push origin lq/definition1
+ 1160  git clone https://github.com/Celine-Langlade/atelier_MVC.git
+ 1161  ls
+ 1162  cd atelier_MVC
+ 1163  ls
+ 1164  sudo chmod -R 777 atelier_MVC
+ 1165  cd..
+ 1166  cd.
+ 1167  cd
+ 1168  /var/www/html/
+ 1169  sudo chmod -R 777 atelier_MVC
+ 1170  ls
+ 1171  /var/www/html/
+ 1172  cd /var/www/html/
+ 1173  ls
+ 1174  sudo chmod -R 777 atelier_MVC
+ 1175  cd atelier_MVC/
+ 1176  ls
+ 1177  chmod +x chmod.sh
+ 1178  ./chmod.sh
+ 1179  composer install
+ 1180  php app/console doctrine:schema:update --force
+ 1181  php app/console doctrine:database:create
+ 1182  php app/console doctrine:schema:update --force
+ 1183  php app/console assets:install --symlink
+ 1184  ls
+ 1185  cd /var/www/html/
+ 1186  symfony new siteadmin 2.8
+ 1187  sudo chmod -R 777 siteadmin
+ 1188  ls
+ 1189  cd atelier_MVC
+ 1190  ls
+ 1191  cp chmod.sh /var/www/html/
+ 1192  cd
+ 1193  cd /var/www/html/
+ 1194  ls
+ 1195  cop chmod.sh /var/www/html/siteadmin
+ 1196  cp chmod.sh /var/www/html/siteadmin
+ 1197  cd siteadmin
+ 1198  chmod +x chmod.sh
+ 1199  ./chmod.sh
+ 1200  composer install
+ 1201  php app/console doctrine:database:create
+ 1202  php app/console generate:bundle
+ 1203  php app/console doctrine:generate/entity
+ 1204  php app/console doctrine:generate:entity
+ 1205  php app/console doctrine:schema:update --force
+ 1206  php app/console doctrine:generate:crud
+ 1207  history > mon_historique.log

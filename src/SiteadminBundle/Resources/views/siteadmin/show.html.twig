@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Siteadmin</h1>
+
+
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ siteadmin.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ siteadmin.nom }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ siteadmin.age }}</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td>{{ siteadmin.image }}</td>
+                <img src="{{ app.request.basepath }}/uploads/{{ siteadmin.image }}">
+
+
+            </tr>
+        </tbody>
+
+
+    <ul>
+        <li>
+            <a href="{{ path('siteadmin_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('siteadmin_edit', { 'id': siteadmin.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}
